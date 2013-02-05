@@ -1,5 +1,5 @@
 ---
-title: Keep on Fighting!
+title: 数字生活
 layout: page
 ---
 
