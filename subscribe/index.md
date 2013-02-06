@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Subscribe
+title: 订阅
 ---
 
 订阅链接
