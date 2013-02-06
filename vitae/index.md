@@ -166,9 +166,6 @@ Homepage: [www.tengfei.name](http://www.tengfei.name)
 
 **AFFILIATION**
 
--   11/2012-present. Special consultant on visualization, design and NGS
-    data analysis, for SupStat.
-
 -   05/2012-present. Invited Smarterer Professors in R section, for
     Smarterer.
 
