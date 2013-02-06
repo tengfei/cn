@@ -1,5 +1,5 @@
 ---
-title: 数字生活| 殷腾飞
+title: 数字生活
 layout: page
 ---
 
