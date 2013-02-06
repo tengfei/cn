@@ -30,7 +30,7 @@ git clone git://jblevins.org/git/markdown-mode.git
 
 然后修改.emacs文件，加入如下几行
 
-{% highlight emacs %}
+{% highlight bash %}
 (add-to-list 'load-path "~/.emacs.d/")
 (autoload 'markdown-mode "markdown-mode"
    "Major mode for editing Markdown files" t)
@@ -53,7 +53,7 @@ sudo apt-get install ibus-el
 {% endhighlight %}
 
 .emacs里满加入
-{% highlight emacs %}
+{% highlight bash %}
 ;; ibus
 (require 'ibus)
  (add-hook 'after-init-hook 'ibus-mode-on)
