@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Hello world! goodbye wordpress!
+title: 暂别wordpress， kiss goodbye.
+categories: [Emacs]
+tags: [markdown-mode, ibus, emacs, 静态页面]
 ---
 
 自从微软把我亲爱的space搞死以后我就把博客转移到了hostmonster用wordpress来继续书
