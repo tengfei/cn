@@ -18,7 +18,7 @@ tags: [markdown-mode, ibus, emacs, 静态页面]
 终于，压到骆驼的最后一根稻草出现鸟，再尝试过*Emacs*的markdown-mode以后，我已经无
 法抵挡用*Emacs*写博客的吸引力。
 
-因为，*Emacs*是邪教，入了就出不去了。指发都已经变形，哥无奈的表示真的已经回不去了。。。
+因为，*Emacs*是邪教，入了就出不去了。指法都已经变形，哥无奈的表示真的已经回不去了。。。
 T_T，恨不得gmail都装*Emacs*的组合键位。
 
 接下来插播下markdown-mode的安装方法，原文
@@ -46,7 +46,7 @@ C-c C-c p既可预览。
 Ok，解释完了稻草，我接下来就直接无耻的fork了益辉的博客的github page。。。然后简单
 做了必要修改，调整了CSS，就直接publish之。谢谢谢老师！（我木有口吃！）
 
-如果你使用ibus管理使用输入法，再附上Ubuntu（12.10其他版本为验证）下Emacs使用
+如果你使用ibus管理使用输入法，再附上Ubuntu（12.10其他版本未验证）下Emacs使用
 ibus.el的方法，也十分简单
 
 首先安装ibus.el
