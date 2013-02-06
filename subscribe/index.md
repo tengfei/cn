@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Guestbook
+title: Subscribe
 ---
 
 订阅链接
