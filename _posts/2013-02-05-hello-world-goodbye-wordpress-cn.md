@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Hello world! goodbye wordpress!
-categories: [Emacs]
-tags: [Emacs, Wordpress, Markdown]
 ---
 
 自从微软把我亲爱的space搞死以后我就把博客转移到了hostmonster用wordpress来继续书
