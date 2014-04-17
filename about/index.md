@@ -7,7 +7,7 @@ comments: no
 ### 关于我
 
 2013年各种机缘巧合（总之是缘分）加入了位于波士顿的创业公司
-[Seven Bridges Genomics] (https://sbgenomics.com)，加入了这个快乐的大家
+[Seven Bridges Genomics](https://sbgenomics.com)，加入了这个快乐的大家
 庭， 也出乎我意料的正式成为了一名产品经理，这是我人生又一次转型 -_-b。
 从南开的生物本科，到ISU的生物信息学，计算生物学博士和统计辅修学位，几乎
 看起来是个码工的我，现在居然成为了一名产品经理，从此也疯狂的爱上了这个
