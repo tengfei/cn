@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Curriculumn Vitae
+title: 简历
 ---
 
 # Tengfei Yin
