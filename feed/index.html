@@ -1,25 +1,36 @@
 ---
 ---
-<?xml version="1.0" encoding="utf-8"?>
-  <rss version="2.0"
-        xmlns:content="http://purl.org/rss/1.0/modules/content/"
-        xmlns:atom="http://www.w3.org/2005/Atom"
-  >
-  <channel>
-    <title>{{ site.author }}</title>
-    <link href="{{ site.url }}/feed/" rel="self" />
-    <link href="http://tengfei.name/" />
-    <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
-    <webMaster>yintengfei@gmail.com</webMaster>
-    {% for post in site.posts limit:10 %}
-    <item>
-      <title>{{ post.title | xml_escape }}</title>
-      <link href="{{ site.url }}{{ post.url }}"/>
-      <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
-      <author>{{ site.author }}</author>
-      <guid>{{ site.url }}{{ post.id }}</guid>
-      <content:encoded><![CDATA[{{ post.content }}]]></content:encoded>
-    </item>
-    {% endfor %}
-  </channel>
-</rss>
+<script type="text/javascript"
+	src="http://china-addthis.googlecode.com/svn/trunk/addfeed.js"
+	charset="UTF-8">
+</script>
+<span class="addfeed_cn"><a href="http://www.tengfei.name/cn/"
+			    title="订阅我吧"><img src="http://addfeed.cn/images/f1.gif"
+						  alt="分享家:Addfeed"
+						  align="absmiddle"
+						  /></a>
+</span>
+
+<!-- <?xml version="1.0" encoding="utf-8"?> -->
+<!--   <rss version="2.0" -->
+<!--         xmlns:content="http://purl.org/rss/1.0/modules/content/" -->
+<!--         xmlns:atom="http://www.w3.org/2005/Atom" -->
+<!--   > -->
+<!--   <channel> -->
+<!--     <title>{{ site.author }}</title> -->
+<!--     <link href="{{ site.url }}/feed/" rel="self" /> -->
+<!--     <link href="http://tengfei.name/" /> -->
+<!--     <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate> -->
+<!--     <webMaster>yintengfei@gmail.com</webMaster> -->
+<!--     {% for post in site.posts limit:10 %} -->
+<!--     <item> -->
+<!--       <title>{{ post.title | xml_escape }}</title> -->
+<!--       <link href="{{ site.url }}{{ post.url }}"/> -->
+<!--       <pubDate>{{ post.date | date_to_xmlschema }}</pubDate> -->
+<!--       <author>{{ site.author }}</author> -->
+<!--       <guid>{{ site.url }}{{ post.id }}</guid> -->
+<!--       <content:encoded><![CDATA[{{ post.content }}]]></content:encoded> -->
+<!--     </item> -->
+<!--     {% endfor %} -->
+<!--   </channel> -->
+<!-- </rss> -->
