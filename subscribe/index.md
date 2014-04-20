@@ -3,10 +3,11 @@ layout: page
 title: 订阅
 ---
 
-订阅链接
+点击按钮直接订阅到相应阅读器。
+
+<script type="text/javascript" src="http://china-addthis.googlecode.com/svn/trunk/addfeed.js" charset="UTF-8"></script><span class="addfeed_cn"><a href="http://www.tengfei.name/cn/" title="订阅我吧"><img src="http://addfeed.cn/images/f1.gif" alt="分享家:Addfeed" align="absmiddle" /></a></span>
+
+或者点击订阅链接feed
 
 [http://tengfei.name/en/feed/](http://tengfei.name/en/feed/)
 
-或者点击按钮直接订阅到相应阅读器。
-
-<a href="http://fusion.google.com/add?source=atgs&feedurl=http%3A//www.tengfei.name/cn/feed/"><img src="http://buttons.googlesyndication.com/fusion/add.gif" alt="Add to Google"></a>
