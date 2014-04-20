@@ -27,9 +27,7 @@ evil）而闻名于世。两个斯坦福的年轻小伙子Larry Page和Sergey Br
 下面列出的是谷歌官方给出的十个准则，源于经验，失败与教训。不论你是战略
 制定者，CEO，还是产品经理，这些准则都很值得一读，并加以反思。
 
-### Google 的十大信条
-    ([英文原文](https://www.google.com/about/company/philosophy/)
-    [中文原文](https://www.google.com/intl/zh-CN/about/company/philosophy/))
+### Google 的十大信条 [英文原文](https://www.google.com/about/company/philosophy/) [中文原文](https://www.google.com/intl/zh-CN/about/company/philosophy/)
 	
 在 Google 成立没几年的时候，我们首次写下这“十大信条”。此后，我们时常重
 新审视这份清单，看看它是否依然适用。我们希望始终贯彻这些信条，而您也可
