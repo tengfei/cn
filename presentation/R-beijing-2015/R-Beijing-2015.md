@@ -3,29 +3,21 @@ Rabix: 新一代数据分析应用流程的开发部署解决方案
 author: 殷腾飞@第八届R会议@北京
 date: 2015-06-07
 
+
 梗概
 ===
-- SBG简介
-- 生物信息流程面临的5大难题
-- Docker简介
-- Common Workflow Language 
-- Rabix: CWL的完美实现
+- 生物信息数据分析流程面临的5大难题
+- Docker 简介
+- Common Workflow Language 简介
+- Rabix: CWL的实现
 - 实例
 
-====
-<center><img src="./figure/sbg_logo.png" style="width: 100%" ></center>
-- 成立于2011， 总部位于美国波士顿，全球三个办公室，截止目前100+员工
-- 全球唯一一家给美国政府和英国政府项目同时提供生物信息大数据方案的公司
-- 全球最领先的生物信息云计算平台， 提供最丰富的软件库和最完整安全的生态系统
 
 
-平台简介
-===
-<center><img src="./figure/platform.png" style="width: 80%" ></center>
-<center><img src="./figure/platform2.png" style="width: 80%" ></center>
 
 
-源代码分享
+
+源码分享是大势所趋
 ===
 - 把代码放在github，ftp
 - 作为文章发表的附件
@@ -56,19 +48,37 @@ date: 2015-06-07
 
 Nature: 科学软件可重复的重要性
 ===
-<center><img src="./figure/nature1.png"  style="width: 80%"/></center>
+<center><img src="./figure/nature1.png"  style="width: 60%"/></center>
+- 4月7日起同行审稿杂志要求评估计算分析中的算法和文档
+- 探索是否可以通过使用类似Docker的服务来测试复杂代码
+- 数据量和计算方法的负责度的增加使得很难查找出错误
+- 高质量审稿人难觅，需要跨领域知识背景
+- 社交尴尬：大部分作者会觉得代码被人查出错会很尴尬
+- open sciense + open research： 不仅仅是“获得”，更重要是可重复和可扩展性
 
 
-Nature: 精准医疗需透明化生物信息学算法
+Nature: 精准医疗需透明化计算方法
 ===
-<center><img src="./figure/nature2.png"  style="width: 80%"/></center>
+<center><img src="./figure/nature2.png"  style="width: 60%"/></center>
+- 精准医疗大热，数据易得，可分析并不简单
+- 基因组虽然不大，但0.1%的不同就是几百万的变异
+- 商业公司不大愿意公开方法，测试数据和性能评估细节
+- 所谓精准医疗必需“证据为王”
+- 需要benchmark系统既保证商业利益，又可以进行有效评估
 
-解决方案？
+
+
+肿么办？
 ===
+<center><img src="./figure/how.jpg"  style="width: 80%"/></center>
+
 
 应用带到数据端
 ===
 <center><img src="./figure/alg2data.png"  style="width: 100%"/></center>
+- 数据在云端，应用轻量围绕在数据周围
+- 灵活，便捷，易重复
+
 
 容器化你的工具：使用Docker
 ===
@@ -116,7 +126,8 @@ Rocker: 使用Docker容器运行R
 ===
 <center><img src="./figure/logo_bioconductor.jpg" style="width: 100%" ></center>
 - 项目起始于2001， 由Robert Gentleman领导创立
-- 专门的生物信息R软件库, 截止目前1024个软件包, 包括各种注释数据。
+- 专门的生物信息R软件库, 截止目前1024个软件包
+- 包括各种注释数据。
 - 每年两次更新
 - AMI和Docker镜像可用
 
@@ -139,7 +150,9 @@ Bioconductor容器列表
 
 CWL: 为数据科学而生
 ===
-- CWL用来描述数据科学所使用的流程， 包括生物信息，化学，物理，宇航等等。针对命令行工具(Command Line Tools) 和流程（Workflow）定义了数据和流程执行模型，从而可以移植在不容的计算平台上，从个人工作站到cluster，grid，云和高性能运算平台。提高了流程的可移植性和可重复性。
+- CWL用来描述数据科学所使用的流程， 包括生物信息，化学，物理，宇航等等。
+- 针对命令行工具(Command Line Tools) 和流程（Workflow）定义了数据和流程执行模型，从而可以移植在不同的计算平台上，从个人工作站到cluster，grid，云和高性能运算平台。
+- 提高了流程的可移植性和可重复性。
 - JSON, YML描述性的语言（数据，工具，流程，参数等）
 - 使用向图（directed graph)来描述一系列讲输入数据转化为输出数据的的操作。
 - 包含了命令行工具（command line) 和表达工具（使用ECMAScript）。
@@ -149,6 +162,7 @@ Rabix: Reproducbile Analysis for Bioinforamtics
 ====
 <center><img src="./figure/rabix_logo.png" style = "width:25%" ></center>
 - CWL的第一个完美植入，简单易用的用户界面
+- 工具流程分享和组装平台
 - 开源开放，可封闭开发，可方便分享，可绑定github账户
 - 四大组件：注册库，工具编辑器，流程编辑器，python executor
 - 由SBG开发，请访问官方网站 [rabix.org](https://www.rabix.org)或者[rabix.io](https://www.rabix.io)
@@ -232,9 +246,6 @@ Seven Bridges Genomics: Rabix支持
 ===
 <center><img src="./figure/cwl-sbg-rabix.png" style = "width:100%"></center>
 
-
-
-
 致谢
 ===
 <center><img src="./figure/developer.png" ></center>
@@ -242,5 +253,18 @@ Seven Bridges Genomics: Rabix支持
 - Sinisa Ivkovic (Seven Bridges Genomics)
 - Milica Kadic (Seven Bridges Genomics)
 - Luka Stojanovic (Seven Bridges Genomics)
+
+====
+<center><img src="./figure/sbg_logo.png" style="width: 100%" ></center>
+- 全球最领先的生物信息云计算平台， 提供最丰富的软件库和最完整安全的生态系统
+- 成立于2011， 总部位于美国波士顿，全球三个办公室，截止目前100+员工
+- 全球唯一一家给美国政府和英国政府项目同时提供生物信息大数据方案的公司
+
+平台简介
+===
+<center><img src="./figure/platform.png" style="width: 80%" ></center>
+<center><img src="./figure/platform2.png" style="width: 80%" ></center>
+
+
 
 
