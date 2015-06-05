@@ -1,4 +1,4 @@
-Rabix: 新一代数据分析应用流程的开发部署解决方案
+Rabix: 基于docker的可重复流程解决方案
 ========================================================
 author: 殷腾飞@第八届R会议@北京
 date: 2015-06-07
@@ -51,7 +51,6 @@ Nature: 科学软件可重复的重要性
 <center><img src="./figure/nature1.png"  style="width: 60%"/></center>
 - 4月7日起同行审稿杂志要求评估计算分析中的算法和文档
 - 探索是否可以通过使用类似Docker的服务来测试复杂代码
-- 数据量和计算方法的负责度的增加使得很难查找出错误
 - 高质量审稿人难觅，需要跨领域知识背景
 - 社交尴尬：大部分作者会觉得代码被人查出错会很尴尬
 - open sciense + open research： 不仅仅是“获得”，更重要是可重复和可扩展性
@@ -100,8 +99,7 @@ Docker简介
 - Dockfile可手动构建容器，便于分享
 - 记录容器快照历史版本
 - 特性：文件系统隔离, 资源隔离, 网络隔离, 写时复制, 日志记录, 变更管理, 交互式Shell
-- 目前Docker正处在开发阶段，官方不建议用于生产环境。
-- Docker是基于Ubuntu开发的，所以官方推荐将其安装在Ubuntu的操作系统上，目前只能安装在linux系统上。
+
 
 Docker原理
 ===
@@ -191,13 +189,7 @@ Rabix: Reproducbile Analysis for Bioinforamtics
 ===
 <center><img src="./figure/pipeline_workflow.png" ></center>
 
-Rabix: 为用户而生
-===
-<center><img src="./figure/rabix_ui1.png" ></center>
 
-Rabix: 为用户而生
-===
-<center><img src="./figure/rabix_ui2.png" ></center>
 
 实例
 ===
@@ -232,7 +224,13 @@ docker commit -m "add samtools 0.1.19 to ubuntu base" \
 docker push tengfei/samtools
 ```
 
+Rabix: 为用户而生
+===
+<center><img src="./figure/rabix_ui1.png" ></center>
 
+Rabix: 为用户而生
+===
+<center><img src="./figure/rabix_ui2.png" ></center>
 
 Seven Bridges Genomics: 整合Rabix
 ===
