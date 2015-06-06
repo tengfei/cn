@@ -152,7 +152,7 @@ CWL: 为数据科学而生
 - 针对命令行工具(Command Line Tools) 和流程（Workflow）定义了数据和流程执行模型，从而可以移植在不同的计算平台上，从个人工作站到cluster，grid，云和高性能运算平台。
 - 提高了流程的可移植性和可重复性。
 - JSON, YML描述性的语言（数据，工具，流程，参数等）
-- 使用向图（directed graph)来描述一系列讲输入数据转化为输出数据的的操作。
+- 使用向图（directed graph)来描述一系列将输入数据转化为输出数据的的操作。
 - 包含了命令行工具（command line) 和表达工具（使用ECMAScript）。
 
 
