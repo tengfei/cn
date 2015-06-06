@@ -9,7 +9,7 @@ date: 2015-06-07
 - 生物信息数据分析流程面临的5大难题
 - Docker 简介
 - Common Workflow Language 简介
-- Rabix: CWL的实现
+- Rabix: Portable Bioinformatics Pipeline
 - 实例
 
 
@@ -156,13 +156,19 @@ CWL: 为数据科学而生
 - 包含了命令行工具（command line) 和表达工具（使用ECMAScript）。
 
 
-Rabix: Reproducbile Analysis for Bioinforamtics
+Rabix: 可轻松移植的流程开发系统
 ====
-<center><img src="./figure/rabix_logo.png" style = "width:25%" ></center>
-- CWL的第一个完美植入，简单易用的用户界面
-- 工具流程分享和组装平台
-- 开源开放，可封闭开发，可方便分享，可绑定github账户
-- 四大组件：注册库，工具编辑器，流程编辑器，python executor
+<center><img src="./figure/rabix-web.png" style = "width:100%" ></center>
+
+功能概况
+===
+- 任何linux系统上运行，只需指定JSON的URL
+- 描述任何有命令行接口linux工具
+- 使用docker进行工具以及系统依赖快照
+- 灵活，可移植，迅速
+- 指定运行所需资源需求（CPU，内存）优化执行
+- javascript表达式
+- 类型声明从而支持输入输出严格校验和图形界面映射
 - 由SBG开发，请访问官方网站 [rabix.org](https://www.rabix.org)或者[rabix.io](https://www.rabix.io)
 
 一个简单的流程
@@ -195,7 +201,7 @@ Rabix: Reproducbile Analysis for Bioinforamtics
 ===
 我希望执行一个命令
 ```
-samtools view -bS in.sam out.bam
+samtools view -bS in.sam > out.bam
 ```
 - 命令行 `samtools view`
 - 输入文件 Sam
@@ -224,13 +230,19 @@ docker commit -m "add samtools 0.1.19 to ubuntu base" \
 docker push tengfei/samtools
 ```
 
-Rabix: 为用户而生
+Rabix: 用户界面直接描述工具和流程
+===
+<center><img src="./figure/rabix_ui2.png" ></center>
+
+Rabix: 可视化可拖拽的流程编辑器
 ===
 <center><img src="./figure/rabix_ui1.png" ></center>
 
-Rabix: 为用户而生
+
+
+Rabix: roadmap
 ===
-<center><img src="./figure/rabix_ui2.png" ></center>
+<center><img src="./figure/rabix-roadmap.png" ></center>
 
 Seven Bridges Genomics: 整合Rabix
 ===
@@ -247,16 +259,19 @@ Seven Bridges Genomics: Rabix支持
 致谢
 ===
 <center><img src="./figure/developer.png" ></center>
-- Nebojsa Tijanic (Seven Bridges Genomics)
-- Sinisa Ivkovic (Seven Bridges Genomics)
-- Milica Kadic (Seven Bridges Genomics)
-- Luka Stojanovic (Seven Bridges Genomics)
+- Nebojsa Tijanic
+- Sinisa Ivkovic 
+- Milica Kadic 
+- Luka Stojanovic 
+
+
 
 ====
 <center><img src="./figure/sbg_logo.png" style="width: 100%" ></center>
 - 全球最领先的生物信息云计算平台， 提供最丰富的软件库和最完整安全的生态系统
 - 成立于2011， 总部位于美国波士顿，全球三个办公室，截止目前100+员工
 - 全球唯一一家给美国政府和英国政府项目同时提供生物信息大数据方案的公司
+- 欢迎访问 [sbgenomics.com](https://www.sbgenomics.com)
 
 平台简介
 ===
