@@ -4,13 +4,21 @@ title: 简历
 ---
 
 # Tengfei Yin
+[Seven Bridges Genomics](https://www.sevenbridges.com/)
 
-[Iowa State University](http://www.iastate.edu/
-1620 Howe Hall 2274& Phone: (515) 203-1719, Ames, IA 50011-2274
-Email:[yintengfei@gmail.com](mailto:yintengfei@gmail.com)
-Homepage: [www.tengfei.name](http://www.tengfei.name)
+1 Main St, 5th Floor, Suite 500\
+Cambridge, MA 02142\
+United States of America
+
+
+Email: [yintengfei@gmail.com](mailto:yintengfei@gmail.com)
+
 
 **QUALIFICATION**
+
+-   4 years product management and development experience in industry. Familiar with best practice PM for 2B/2C market.  
+
+-   3 years international business development between US and China for healthcare segemnet and cloud computing PaaS/SaaS, support sales team and architect solution for partners and clients.
 
 -   Expertise in information visualization, interactive/dynamic
     graphics, genomic data visualization, design of genome browser.
@@ -26,12 +34,7 @@ Homepage: [www.tengfei.name](http://www.tengfei.name)
     cufflinks, GSNAP, FastQC, GATK, etc. and automated system
     development.
 
--   Proficient with R and Bioconductor core packages. Good knowledge
-    with Python and experience with C, Java, MySQL, and other non-sql
-    database
-
--   Web developement and visualization experience with HTML5 canvas,
-    JavaScripts and CSS.
+-   Proficient with R and experience with Python, C/C++, JavaScript/Html, MySQL, SWIFT
 
 -   Knowledgeable in theoretical/applied statistics, data mining and
     machine learning methods, exploratory data analysis, multivariate
@@ -40,18 +43,21 @@ Homepage: [www.tengfei.name](http://www.tengfei.name)
 -   Experience with Unix-like system and tools, version-control system
     like svn and git, IDE like Emacs and Eclipse, parallel computing.
 
+**WORK EXPERIENCE**
+
+- 02/2015 - present   : General Manager - China, Seven Bridges Genomics, Boston
+- 08/2013 - 08/2016 : Scienst & Product Manager, Seven Bridges Genomics, Boston
+
+
 **INTERNSHIP EXPERIENCE**
 
 -   05/2011-09/2011: Extended grammar of graphics to genomic data and
-    developed R package **ggbio**. Software engineer. Department of
+    developed R packages. Software engineer. Department of
     bioinformatics, Genentech, CA. Manager: Michael Lawrence.
 
 -   05/2010-09/2010: Implemented a QT-based interactive pipeline for
     analysis and visualization of next generation data, based on a *MVC*
-    model and developed R package **visnab**. Developed GUI development
-    tools in R for UI construction, such **objectSignals,
-    objectProperties**, etc. . Software engineer, Department of biostats
-    and bioinformatics, Genentech, CA. Manager: Michael Lawrence.
+    model and developed R packages. Software engineer, Department of biostats and bioinformatics, Genentech, CA. Manager: Michael Lawrence.
 
 **EDUCATION**
 
@@ -148,24 +154,4 @@ Homepage: [www.tengfei.name](http://www.tengfei.name)
     Lawrence and John Verzani(2011). Testing/feedback for part of the
     book.
 
-**WORKSHOP**
-
--   “ggbio: an R implementation for extending the grammar of graphics
-    for genomic data”. Bioconductor 2012, Fred hutchinson cancer
-    research center, Seattle.
-
-**HONORS AND REWARDS**
-
--   08/2011 Bioconductor annual conference scholarships.
-
--   05/2010 Best visualization for Recovery data, Design For America
-    (Iowa state team).
-
--   08/2009 American Statistical Association Data Expo 2009. 2nd Place
-    (Iowa state team).
-
-**AFFILIATION**
-
--   05/2012-present. Invited Smarterer Professors in R section, for
-    Smarterer.
 
