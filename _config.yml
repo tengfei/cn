@@ -1,6 +1,6 @@
 markdown: kramdown
 permalink: /:year/:month/:title/
-url: http://tengfei.name/cn
+url: http://yintengfei.me/cn
 author: 殷腾飞
 highlighter: pygments
 
